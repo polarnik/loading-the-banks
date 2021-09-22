@@ -280,7 +280,7 @@ section.head_tks p > strong > em > img
 
 section.head2 h1
 {
-    background: linear-gradient(0.25turn, var(--bg-color),var(--bg-color),var(--bg-color),var(--bg-color), #05183000);
+    background: linear-gradient(0.25turn, var(--bg-color), #05183000);
 }
 section.error h1
 {
