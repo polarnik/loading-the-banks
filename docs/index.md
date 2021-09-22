@@ -54,9 +54,8 @@ _paginate: false
 -->
 
 ---
-<!-- class: head2 -->
+<!-- _class: main -->
 
-# __Содержание__
 * Планирование
 * Профиль нагрузки
 * Инструменты
@@ -86,7 +85,7 @@ _paginate: false
 **_![ opacity:40% ](themes/img/tks2.png)_**
 
 ---
-
+<!-- class: head2 -->
 # Скрам
 
 **_![ opacity:20% ](themes/img/lead/lead04.png)_**
@@ -98,6 +97,8 @@ _paginate: false
 # Профиль нагрузки
 
 ---
+
+<!-- class: head2 -->
 
 # Сбор профиля по продуктиву
 
@@ -147,7 +148,7 @@ _paginate: false
 один и тот жерезультат 
 и набор графиков
 
-**_![ opacity:40% ](themes/img/tks2.png)_**
+**_![ opacity:40% ](themes/img/tks.png)_**
 
 ---
 <!-- _class: main
@@ -178,7 +179,7 @@ _paginate: false
 1 датацентр либо 
 1 плечо нагрузки 
 
-**_![ opacity:40% ](themes/img/tks2.png)_**
+**_![ opacity:40% ](themes/img/tks.png)_**
 
 ---
 <!-- _class: main

@@ -54,7 +54,24 @@ section {
 
  section.head_tks {
     background-color: var(--bg-color-tks) ;
+
+    background-image: url("themes/img/tks-logo.svg"); 
+
+    background-position: 30px 95%;
+    background-repeat: no-repeat;
+    background-size: auto 7%;
+    background-origin: border-box;
  }
+
+ section.head2 {
+    background-image: url("themes/img/lead/logo.ligth.svg"); 
+
+    background-position: 30px 95%;
+    background-repeat: no-repeat;
+    background-size: auto 7%;
+    background-origin: border-box;
+ }
+
 
 
 section h1
@@ -256,7 +273,6 @@ section.head_tks p > strong > em > img
     position: absolute;
     bottom: 0;
     right: 0;
-    left: 461px;
     height: 100%;
     z-index: 1;
     overflow: visible;
@@ -281,10 +297,10 @@ section.error h1
 Фоновые изображения, из шаблона ВТБ
 */
 section.lead1 {
-    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb.png"), url("themes/img/lead/lead01.png");
+    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead01.png");
 }
 section.lead2 {
-    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb.png"), url("themes/img/lead/lead02.jpeg"); 
+    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead02.jpeg"); 
 }
 section.lead3 {
     background-image: url("themes/img/lead/lead03.png"); 
@@ -296,7 +312,7 @@ section.lead5 {
     background-image: url("themes/img/lead/lead05.jpeg"); 
 }
 section.lead6 {
-    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb.png"), url("themes/img/lead/lead06.jpeg"); 
+    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead06.jpeg"); 
 }
 section.lead7 {
     background-image: url("themes/img/lead/lead07.jpeg"); 
@@ -305,19 +321,19 @@ section.lead8 {
     background-image: url("themes/img/lead/lead08.jpeg"); 
 }
 section.lead9 {
-    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb.png"), url("themes/img/lead/lead09.jpeg"); 
+    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead09.jpeg"); 
 }
 section.lead10 {
-    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb.png"), url("themes/img/lead/lead10.jpeg"); 
+    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead10.jpeg"); 
 }
 section.lead11 {
-    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb.png"), url("themes/img/lead/lead11.jpeg"); 
+    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead11.jpeg"); 
 }
 section.lead12 {
-    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb.png"), url("themes/img/lead/lead12.jpeg"); 
+    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead12.jpeg"); 
 }
 section.lead13 {
-    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb.png"), url("themes/img/lead/lead13.jpeg"); 
+    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead13.jpeg"); 
 }
 section.lead14 {
     background-image: url("themes/img/lead/lead14.jpeg"); 
@@ -329,10 +345,10 @@ section.lead16 {
     background-image: url("themes/img/lead/lead16.jpeg"); 
 }
 section.lead17 {
-    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb.png"), url("themes/img/lead/lead02.jpeg"); 
+    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead02.jpeg"); 
 }
 section.lead18 {
-    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb.png"), url("themes/img/lead/lead18.svg"); 
+    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead18.svg"); 
 }
 section.lead19 {
     background-image: url("themes/img/lead/lead19.png"); 
@@ -361,7 +377,7 @@ section.lead18
     padding: 0;
     background-position: 95% 10%, 30px 95%, right bottom;
     background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 15%, 100px, cover;
+    background-size: 15%, 15%, cover;
     background-origin: padding-box, border-box, border-box;
     color: white !important;
     text-decoration-color: white !important;
@@ -379,11 +395,11 @@ section.main
     background: var(--main-bg-color);
     padding: 0;
 
-    background-image: url("img/hb.png"); 
+    background-image: url("img/hb-logo.png"); 
 
     background-position: 30px 95%;
     background-repeat: no-repeat;
-    background-size: 100px;
+    background-size: 15%;
     background-origin: border-box;
 
     color: white;
