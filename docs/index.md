@@ -26,6 +26,26 @@ _paginate: false
 
 # О технологиях и подходах реализации нагрузки в двух разных командах
 
+<!-- 
+Чуть более конкретные примеры.
+Провести тестирование Heisenbug в Firefox. 
+Максим, ваш выход ))
+
+Не словами а конкретикой
+
+2) Не очень понятно, что делать с записью?
+Если запись не делать, 
+то каждый может высказываться на любую тему.
+
+Непотребство из записи будет убрано
+
+Раписание - выйти в эфир в формате Главной студии, 
+круглый стол по производительности
+6 октября, начинается за 15 минут до конца доклада, 
+30 минут перерыва
+15 минут после начала следующего доклада
+-->
+
 ---
 
 <!-- _class: title-->
@@ -131,7 +151,7 @@ _paginate: false
 
 ## __Регулярно: Apache.JMeter__
 
-**_![ opacity:20%  ](themes/img/lead/lead04.png)_**
+**_![ opacity:40%  ](themes/img/lead/lead04.png)_**
 
 ---
 <!-- _class: head_tks
@@ -145,10 +165,44 @@ _paginate: false
 ## __Не важно что генерирует нагрузку__
 
 Вы всегда получите
-один и тот жерезультат 
+один и тот же результат 
 и набор графиков
 
 **_![ opacity:40% ](themes/img/tks.png)_**
+
+---
+<!-- _class: compare
+-->
+
+- Maven, JMeter Maven Plugin, JMeter
+- плагины JMeter
+- HP Perfomance Center (в банке)
+- Профиль нагрузки и SLA задается в property-файле
+- Много профилирования JVM
+- Firefox + Fiddler 
+
+1. SBT, Gatling, Scala
+1. свои плагины Gatling
+1. K6, GoLang
+1. Профиль нагрузки и SLA задается в yaml-файле
+1. Единообразный процесс запуска НТ
+
+---
+<!-- _class: compare2
+-->
+
+- Maven, JMeter Maven Plugin, JMeter
+- плагины JMeter
+- HP Perfomance Center (в банке)
+- Профиль нагрузки и SLA задается в property-файле
+- Много профилирования JVM
+- Firefox + Fiddler 
+
+1. SBT, Gatling, Scala
+1. свои плагины Gatling
+1. K6, GoLang
+1. Профиль нагрузки и SLA задается в yaml-файле
+1. Единообразный процесс запуска НТ
 
 ---
 <!-- _class: main
@@ -162,7 +216,7 @@ _paginate: false
 
 ##
 
-**_![ opacity:20%  ](themes/img/lead/lead04.png)_**
+**_![ opacity:40%  ](themes/img/lead/lead04.png)_**
 
 ---
 <!-- _class: head_tks
