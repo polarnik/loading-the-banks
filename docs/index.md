@@ -203,12 +203,16 @@ _paginate: false
 - Соответствие профиля легаси
 - Соответствие интенсивности легаси + прогноз роста интенсивности
 - Посчитали SLA с продуктива
+- Источник: база данных
 
 1. Для систем, которые уже в проде
 1. Автосбор профиля
 1. Соответствие профиля продуктиву
 1. Соответствие интенсивности продуктиву
 1. Требуем от команд SLA
+1. Источник: логи и ELK
+1. RED: (Request) Rate, Errors, Duration
+1. Источник RED: Prometheus + ELK
 
 
 ---
@@ -234,6 +238,17 @@ _paginate: false
 Для регресса
 
 **_![ opacity:40%  ](themes/img/lead/lead04.png)_**
+
+---
+<!-- _footer: Источник фото: https://habr.com/ru/article/508466/
+-->
+
+# Работа по инцидентам: Skype + коллега
+
+
+
+![ bg opacity:100%  ](img/show-me-bug.jpg)
+
 
 ---
 <!-- _class: head_tks
@@ -299,6 +314,18 @@ _paginate: false
 1 плечо нагрузки 
 
 **_![ opacity:40% ](themes/img/tks.png)_**
+
+
+---
+<!-- _class: head_tks
+_footer: Источник фото: https://habr.com/ru/article/508466/
+-->
+
+
+![ bg opacity:100% height:100% ](img/yaml-developer.jpg)
+
+
+
 
 ---
 <!-- _class: main
