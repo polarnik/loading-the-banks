@@ -966,10 +966,10 @@ section.error h2
 }
 section.head2 h2,
 section.error h2 {
-    background: linear-gradient(0.25turn, var(--title-h1-color), transparent, transparent);
+    background: linear-gradient(0.25turn, var(--title-h1-color),var(--title-h1-color), transparent, transparent);
 }
 section.head_tks h2{
-    background: linear-gradient(0.25turn, var(--main-bg-color-tks), transparent, transparent);
+    background: linear-gradient(0.25turn, var(--main-bg-color-tks),var(--main-bg-color-tks), transparent, transparent);
 }
 
 section.head h2:before 
