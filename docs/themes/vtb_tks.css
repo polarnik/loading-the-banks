@@ -375,6 +375,10 @@ section.head2 h1
 {
     background: linear-gradient(0.25turn, var(--bg-color), #05183000);
 }
+section.head_tks h1
+{
+    background: linear-gradient(0.25turn, var(--bg-color-tks), #05183000);
+}
 section.error h1
 {
     background: linear-gradient(0.25turn, var(--bg-color-error),var(--bg-color-error),var(--bg-color-error),var(--bg-color-error), #05183000);
@@ -470,7 +474,7 @@ section.lead18
     padding: 0;
     background-position: 95% 10%, 95% 35%, 30px 95%, right bottom;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-    background-size: auto 10%, auto 10%, 15%, cover;
+    background-size: auto 10%, auto 10%, 20%, cover;
     background-origin: padding-box, border-box, border-box, border-box;
     color: white !important;
     text-decoration-color: white !important;
@@ -488,11 +492,12 @@ section.main
     background: #020202;
     padding: 0;
 
-    background-image: url("img/hb-logo.png"); 
+    background-image: url("img/hb-logo.png") ; 
 
     background-position: 30px 95%;
     background-repeat: no-repeat;
-    background-size: 15%;
+    background-size: 20%;
+    
     background-origin: border-box;
 
     color: white;
