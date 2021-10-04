@@ -56,22 +56,24 @@ section {
 
  section.head_tks {
     background-color: var(--bg-color-tks) ;
-
+    /*
     background-image: url("themes/img/tks-logo.svg"); 
 
     background-position: 30px 95%;
     background-repeat: no-repeat;
     background-size: auto 7%;
-    background-origin: border-box;
+    background-origin: border-box;*/
  }
 
  section.head2 {
+     /*
     background-image: url("themes/img/lead/logo.ligth.svg"); 
 
     background-position: 30px 95%;
     background-repeat: no-repeat;
     background-size: auto 7%;
     background-origin: border-box;
+    */
  }
 
 
@@ -184,27 +186,27 @@ section li[data-bespoke-marp-fragment="active"][data-bespoke-marp-current-fragme
 
 section.compare {
     background-image: 
-    url("themes/img/tks-logo.svg"),
-    url("themes/img/lead/logo.ligth.svg"), 
+    /*url("themes/img/tks-logo.svg"),
+    url("themes/img/lead/logo.ligth.svg"), */
         url("themes/img/compare.png")    
     ;
     padding: 0;
-    background-position: 30px 95%, 670px 95%, 0 0;
-    background-repeat: no-repeat,  no-repeat, no-repeat;
-    background-size: 15%, 15%, auto 100%;
-    background-origin: padding-box, padding-box, border-box;
+    background-position: /*30px 95%, 670px 95%,*/ 0 0;
+    background-repeat: /*no-repeat,  no-repeat,*/ no-repeat;
+    background-size: /*15%, 15%,*/ auto 100%;
+    background-origin: /*padding-box, padding-box,*/ border-box;
 }
 section.compare2 {
     background-image: 
-    url("themes/img/lead/logo.ligth.svg"), 
-    url("themes/img/tks-logo.svg"),
+    /*url("themes/img/lead/logo.ligth.svg"), 
+    url("themes/img/tks-logo.svg"),*/
         url("themes/img/compare2.png")    
     ;
     padding: 0;
-    background-position: 30px 95%, 670px 95%, 0 0;
-    background-repeat: no-repeat,  no-repeat, no-repeat;
-    background-size: 15%, 15%, auto 100%;
-    background-origin: padding-box, padding-box, border-box;
+    background-position: /*30px 95%, 670px 95%,*/ 0 0;
+    background-repeat: /*no-repeat,  no-repeat,*/ no-repeat;
+    background-size: /*15%, 15%,*/ auto 100%;
+    background-origin: /*padding-box, padding-box,*/ border-box;
 }
 
 section.compare::before, section.compare2::before {
