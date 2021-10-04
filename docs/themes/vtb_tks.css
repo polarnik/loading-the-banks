@@ -163,7 +163,7 @@ section::after
     padding: 0;
     position: absolute;
 
-    color: #667EB4;
+    color: black;
     
     background-size: 100%;
     padding-right: 45px;
@@ -423,7 +423,7 @@ section.lead11 {
     background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead11.jpeg"); 
 }
 section.lead12 {
-    background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead12.jpeg"); 
+    background-image: url("themes/img/lead/logo.ligth.svg"), url("themes/img/tks-logo.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead12.jpeg"); 
 }
 section.lead13 {
     background-image: url("themes/img/lead/logo.ligth.svg"), url("img/hb-logo.png"), url("themes/img/lead/lead13.jpeg"); 
@@ -468,10 +468,10 @@ section.lead17,
 section.lead18 
 {
     padding: 0;
-    background-position: 95% 10%, 30px 95%, right bottom;
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-size: 15%, 15%, cover;
-    background-origin: padding-box, border-box, border-box;
+    background-position: 95% 10%, 95% 35%, 30px 95%, right bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-size: auto 10%, auto 10%, 15%, cover;
+    background-origin: padding-box, border-box, border-box, border-box;
     color: white !important;
     text-decoration-color: white !important;
 }
@@ -485,7 +485,7 @@ section.lead18
 
 section.main
 {
-    background: var(--main-bg-color);
+    background: #020202;
     padding: 0;
 
     background-image: url("img/hb-logo.png"); 
@@ -520,6 +520,7 @@ section.main:before
     height: 100%;
     transform: skew(-20deg);
     background: #CCD4E6;
+    background: #222222;
 }
 
 
