@@ -172,12 +172,16 @@ section::after
     font-size: 66%;
 }
 
-section li::marker {
+section li::marker, section li[data-bespoke-marp-fragment="active"] {
     color: #667EB4;
 }
 
-section li[data-bespoke-marp-fragment="active"]{
-    color: #667EB4;
+section.main li::marker, section.main li[data-bespoke-marp-fragment="active"] {
+    color: #ff9e1f;
+}
+
+section.head_tks li::marker, section.head_tks li[data-bespoke-marp-fragment="active"] {
+    color: #7c7c7c;
 }
 
 section li[data-bespoke-marp-fragment="active"][data-bespoke-marp-current-fragment] {
