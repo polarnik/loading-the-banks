@@ -1,7 +1,7 @@
 ---
 marp: true
 title: Нагружаем банки
-description: Как ускорить запросы к InfluxDB с помощью InfluxQL Continuous Queries и разделения данных 
+description: О технологиях и подходах реализации нагрузки в двух разных командах 
 theme: vtb_tks
 template: bespoke
 paginate: true
