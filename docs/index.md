@@ -901,8 +901,8 @@ _на поддержке команды НТ_
 ## __Fluentd парсит строки логов на поля__
 ## __Маскирование для Message на JRuby__
 User TestUser* timeout *sec
-## __ElasticSearch хранит логи и поля 4 дня__
-
+## __ElasticSearch хранит логи и поля__
+ 4 дня
 **_![ opacity:40%  ](themes/img/lead/lead04.png)_**
 
 <!--
@@ -914,6 +914,8 @@ User TestUser* timeout *sec
 -->
 ---
 
+# Группировка логов по текстам сообщений
+## __Это ускоряет анализ прооблем на порядок__
 ![bg](img/errors.png)
 
 ---
