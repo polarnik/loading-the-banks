@@ -781,13 +781,6 @@ Squeeze тестирование
 **_![ opacity:40%  ](themes/img/lead/lead04.png)_**
 
 
----
-<!-- _class: head_tks
-_footer: Источник фото: https://habr.com/ru/article/508466/
--->
-
-
-![ bg opacity:100% height:100% ](img/yaml-developer.jpg)
 
 <!--
 Максим: 
@@ -798,10 +791,11 @@ _footer: Источник фото: https://habr.com/ru/article/508466/
 -->
 # Gitlab-CI, Nexus, Docker
 
-## __Мы YAML-Developer-ы__
-Pipeline в Gitlab-CI похож на
-Docker-Compose + Jenkins
-## __Все в одном месте, все стандартизируется и переиспользуется__
+## __Gitlab-CI__
+Pipeline в Gitlab-CI *похож на
+Docker-Compose + Jenkins*
+## __Все в одном месте, стандартизируется__
+## __и переиспользуется__
 За счет Gitlib-CI и Docker
 
 ## __Генераторы нагрузки под каждый вид тестов__
