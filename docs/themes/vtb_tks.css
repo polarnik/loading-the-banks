@@ -176,9 +176,13 @@ section li::marker, section li[data-bespoke-marp-fragment="active"] {
     color: #667EB4;
 }
 
-section.main li::marker, section.main li[data-bespoke-marp-fragment="active"] {
+section.main li::marker {
     color: #ff9e1f;
 }
+section.main li[data-bespoke-marp-fragment="active"] {
+    color: #333333;
+}
+
 
 section.head_tks li::marker, section.head_tks li[data-bespoke-marp-fragment="active"] {
     color: #7c7c7c;
