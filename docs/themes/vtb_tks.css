@@ -284,7 +284,7 @@ section.compare ol li, section.compare2 ol li {
     background: linear-gradient(
         0.25turn,
         white,white,
-        white,white,
+        white,white,white,white,
         transparent);
     color: black !important;
 }
