@@ -402,7 +402,7 @@ section.head2 h1
 }
 section.head_tks h1
 {
-    background: linear-gradient(0.25turn, var(--bg-color-tks), #05183000);
+    background: linear-gradient(0.25turn, var(--bg-color-tks),var(--bg-color-tks),var(--bg-color-tks),var(--bg-color-tks),var(--bg-color-tks),var(--bg-color-tks), #05183000);
 }
 section.error h1
 {
