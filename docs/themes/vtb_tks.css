@@ -21,6 +21,7 @@
     --title-h2-color: #00AAFF;
 
     --bg-color-tks: #AFAFAF;
+    --bg-color-tks: white;
     --bg-color-tks-half: #AFAFAF7d;
     --main-bg-color-tks: #474747;
     --main-bg-color-half-tks: #4747477d;
@@ -210,7 +211,7 @@ section.compare2 {
     background-image: 
     /*url("themes/img/lead/logo.ligth.svg"), 
     url("themes/img/tks-logo.svg"),*/
-        url("themes/img/compare2.png")    
+        url("themes/img/compare3.png")    
     ;
     padding: 0;
     background-position: /*30px 95%, 670px 95%,*/ 0 0;
@@ -280,6 +281,12 @@ section.compare ol li, section.compare2 ol li {
         var(--main-bg-color-tks),var(--main-bg-color-tks),
         var(--main-bg-color-half-tks),
         transparent);
+    background: linear-gradient(
+        0.25turn,
+        white,white,
+        white,white,
+        transparent);
+    color: black !important;
 }
 
 section em  {
@@ -490,7 +497,7 @@ section.lead17,
 section.lead18 
 {
     padding: 0;
-    background-position: 95% 10%, 95% 35%, 30px 95%, right bottom;
+    background-position: 95% 95%, 50% 95%, 30px 95%, right bottom;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     background-size: auto 10%, auto 10%, 20%, cover;
     background-origin: padding-box, border-box, border-box, border-box;
@@ -639,6 +646,7 @@ section.lead18 h1
     padding: 0;
     padding-left: 30px;
     padding-top: 10px;
+    line-height: 80px;
     top: 228px;
 }
 
@@ -999,6 +1007,7 @@ section.error h2 {
 section.head_tks h2{
     background: linear-gradient(0.25turn, var(--main-bg-color-tks),var(--main-bg-color-tks), transparent, transparent);
     background: linear-gradient(0.25turn, var(--main-bg-color-half-tks), var(--main-bg-color-half-tks), var(--main-bg-color-half-tks), var(--main-bg-color-half-tks),  transparent, transparent, transparent);
+    background: linear-gradient(0.25turn, var(--bg-color-tks-half), var(--bg-color-tks-half), var(--bg-color-tks-half), var(--bg-color-tks-half),  transparent, transparent, transparent);
 }
 
 section.head h2:before 
@@ -1023,3 +1032,6 @@ span.hljs-number {
     color: #CCD4E6;
 }
 
+section.head_tks h1, section.head_tks h2 strong, section.head_tks {
+    color: #020202 !important;
+}
