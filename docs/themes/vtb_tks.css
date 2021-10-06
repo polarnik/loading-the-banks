@@ -649,7 +649,9 @@ section.lead18 h1
     line-height: 80px;
     top: 228px;
 }
-
+section.title h1 {
+    line-height: 55px;
+}
 
 section.title h1:after,
 section.lead1 h1:after,
