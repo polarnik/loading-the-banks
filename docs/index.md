@@ -296,6 +296,29 @@ _paginate: false
 
 # Инструменты
 
+
+---
+<!-- _footer: Источник фото: https://habr.com/ru/article/508466/
+-->
+
+# Для работы по инцидентам: Skype + коллега
+
+![ bg opacity:100%   ](img/show-me-bug.jpg)
+
+---
+
+# Для замеров: Firefox или Chrome
+
+## __Developer Tools / Network__
+
+![ bg   ](img/vtbbo.ru.png)
+
+---
+
+# Анализируем запросы к бекенду
+
+![ bg   ](img/vtbbo.ru.1.png)
+
 ---
 
 # Используем браузер, JVM-профайлер и JMeter
@@ -313,28 +336,6 @@ _paginate: false
 Для регресса
 
 **_![ opacity:40%  ](themes/img/lead/lead04.png)_**
-
----
-<!-- _footer: Источник фото: https://habr.com/ru/article/508466/
--->
-
-# Для работы по инцидентам: Skype + коллега
-
-![ bg opacity:100%  ](img/show-me-bug.jpg)
-
----
-
-# Для замеров: Firefox или Chrome
-
-## __Developer Tools / Network__
-
-![ bg   ](img/vtbbo.ru.png)
-
----
-
-# Анализируем запросы к бекенду
-
-![ bg   ](img/vtbbo.ru.1.png)
 
 ---
 <!-- _class: head_tks
