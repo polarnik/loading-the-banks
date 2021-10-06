@@ -20,12 +20,12 @@
     --title-h1-color: #002882;
     --title-h2-color: #00AAFF;
 
-    --bg-color-tks: #333333;
-    --bg-color-tks-half: #3333337d;
+    --bg-color-tks: #AFAFAF;
+    --bg-color-tks-half: #AFAFAF7d;
     --main-bg-color-tks: #474747;
     --main-bg-color-half-tks: #4747477d;
     --title-h1-color-tks: #333333;
-    --title-h2-color-tks: #f5d60f;
+    --title-h2-color-tks: #ffdd2d;
 }
 
 #p > svg.bespoke-marp-slide.bespoke-marp-active > foreignObject > section > div > figure {
@@ -56,6 +56,8 @@ section {
 
  section.head_tks {
     background-color: var(--bg-color-tks) ;
+    background-color: #FFDD2D ;
+    
     /*
     background-image: url("themes/img/tks-logo.svg"); 
 
@@ -275,7 +277,7 @@ section.compare ul li, section.compare2 ul li {
 section.compare ol li, section.compare2 ol li {
     background: linear-gradient(
         0.25turn,
-        var(--main-bg-color-tks),
+        var(--main-bg-color-tks),var(--main-bg-color-tks),
         var(--main-bg-color-half-tks),
         transparent);
 }
@@ -319,6 +321,9 @@ section.head2 p > strong > em::before
 {
     border-top: 750px solid var(--bg-color);  
     border-left: 0px solid var(--bg-color);
+    width: 801px;
+    left: 0px;
+    z-index: -1;
 }
 section.head_tks p > em > strong::before, 
 section.head_tks p > strong > em::before
@@ -326,6 +331,10 @@ section.head_tks p > strong > em::before
 
     border-top: 750px solid var(--bg-color-tks);  
     border-left: 0px solid var(--bg-color-tks);
+    width: 801px;
+    left: 0px;
+    z-index: -1;
+    
 }
 
 section.error p > em > strong::after, 
@@ -340,7 +349,7 @@ section.head_tks p > strong > em::after
     right: 100%;
     top: 0;
     bottom: 0;
-    left: 638px;
+    left: 938px;
     width: 6px;
     height: 100%;
     transform: skew(-20deg);
@@ -360,6 +369,7 @@ section.head_tks p > em > strong::after,
 section.head_tks p > strong > em::after
 {
     background: var(--main-bg-color-tks);
+    
 }
 
 section.error p > em > strong > img, 
@@ -371,9 +381,9 @@ section.head_tks p > strong > em > img
 {
     position: absolute;
     bottom: 0;
-    left: 500px;
+    left: 600px;
     height: 100%;
-    z-index: 1;
+    z-index: -2;
     overflow: visible;
     padding: 0;
     margin: 0;
@@ -528,12 +538,13 @@ section.main:before
     content: " ";
     position: absolute;
     bottom: 0;
-    left: 1000px;
+    left: 940px;
     width: 1400px;
     height: 100%;
     transform: skew(-20deg);
     background: #CCD4E6;
     background: #222222;
+    z-index: -1;
 }
 
 
@@ -934,6 +945,7 @@ section.error h1
     padding-top: 10px;
     top: 0px;
 }
+
 section.head h1
 {
 
@@ -986,6 +998,7 @@ section.error h2 {
 }
 section.head_tks h2{
     background: linear-gradient(0.25turn, var(--main-bg-color-tks),var(--main-bg-color-tks), transparent, transparent);
+    background: linear-gradient(0.25turn, var(--main-bg-color-half-tks), var(--main-bg-color-half-tks), var(--main-bg-color-half-tks), var(--main-bg-color-half-tks),  transparent, transparent, transparent);
 }
 
 section.head h2:before 
@@ -1009,3 +1022,4 @@ span.hljs-string {
 span.hljs-number {
     color: #CCD4E6;
 }
+
